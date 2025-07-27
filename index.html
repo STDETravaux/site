@@ -358,8 +358,32 @@
                 </div>
               </div><!-- End Info Item -->
 
+            
+        <style>
+        .map-container {
+            width: 100%;
+            max-width: 400px;
+            height: 300px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        @media (max-width: 480px) {
+            .map-container {
+                height: 250px; /* Hauteur réduite sur mobile */
+            }
+        }
+        </style>
+
+        <div class="map-container">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5598.398086517082!2d5.532897!3d45.445645!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478ae11633ed267b%3A0x99ace25b74d078ba!2sSTDE%20Travaux!5e0!3m2!1sfr!2sfr!4v1752767648069!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>			</div>
-          </div>
+        </div>
+        
+        </div>
 
           <!-- Contact Form -->
           <div class="col-lg-7">
